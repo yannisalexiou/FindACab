@@ -3,6 +3,14 @@ Ext.define('FindACab.store.Cabs', {
   //Everyting inside config, I can call it wih get e.x. getModel()
   config: {
     model: 'FindACab.model.Cab',
-    autoLoad: true
+    autoLoad: true,
+    proxy: {
+      type: 'ajax',
+      url: 'data/data.json',
+      reader: {
+        type: 'json',
+        rootProperty: 'businesses'
+      }
+    }
   }
 });

@@ -25,7 +25,8 @@ Ext.application({
     ],
 
     models: [
-      'Cab'
+      'Cab',
+      'Setting'
     ],
 
     stores: [
@@ -61,6 +62,7 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
+        //Ext.Ajax.setUseDefaultXhrHeader(false);
 
         // Initialize the main view
         Ext.Viewport.add(Ext.create('FindACab.view.Main'));

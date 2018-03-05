@@ -5,16 +5,17 @@ Ext.define('FindACab.model.Cab', {
         fields: [
             { name: 'id', type: 'auto' },
             { name: 'name', type: 'string' },
-            { name: 'latitude', type: 'float' },
-            { name: 'longitude', type: 'float' },
+            { name: 'coordinates', type: 'auto' },
+            { name: 'latitude', mapping: 'coordinates.latitude' },
+            { name: 'longitude', mapping: 'coordinates.longitude' },
             { name: 'address1', type: 'string' },
             { name: 'phone', type: 'string' },
-            { name: 'state_code', type: 'string' },
-            { name: 'zip', type: 'string' },
+            { name: 'state', type: 'string' },
+            { name: 'zip_code', type: 'string' },
             { name: 'city', type: 'string' },
             { name: 'userinput', type: 'string' },
-            { name: 'country_code', type: 'string' },
-            { name: 'avg_rating', type: 'float' },
+            { name: 'country', type: 'string' },
+            { name: 'rating', type: 'float' },
             { name: 'distance', type: 'float' }
 
         ]

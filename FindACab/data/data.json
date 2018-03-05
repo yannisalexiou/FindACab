@@ -1,0 +1,616 @@
+{
+    "businesses": [
+        {
+            "id": "taxi-klaas-amsterdam",
+            "name": "Taxi Klaas",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/IoU1RGSKxTOHnPe6NKDjBA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taxi-klaas-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "localservices",
+                    "title": "Local Services"
+                },
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 52.37314,
+                "longitude": 4.89333
+            },
+            "transactions": [],
+            "location": {
+                "address1": "",
+                "address2": "",
+                "address3": "",
+                "city": "Amsterdam",
+                "zip_code": "",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Amsterdam, Noord-Holland",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31630383525",
+            "display_phone": "+31 6 30383525",
+            "distance": 677.8053368913139
+        },
+        {
+            "id": "abel-amsterdam",
+            "name": "Abel",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/MkdptifL9aMOFcSB09_Vvw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/abel-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.35971,
+                "longitude": 4.8917
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Weteringschans 165",
+                "address2": "",
+                "address3": null,
+                "city": "Amsterdam",
+                "zip_code": "1017 XD",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Weteringschans 165",
+                    "1017 XD Amsterdam",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 578.840050239774
+        },
+        {
+            "id": "taxi-electric-amsterdam",
+            "name": "Taxi Electric",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/baV-a4V7LGvBRbm9kwmLYw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taxi-electric-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 52.3367691,
+                "longitude": 4.9170299
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Spaklerweg 52",
+                "address2": null,
+                "address3": "",
+                "city": "Amsterdam",
+                "zip_code": "1096 BA",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Spaklerweg 52",
+                    "1096 BA Amsterdam",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31881004444",
+            "display_phone": "+31 88 100 4444",
+            "distance": 3616.8216557376677
+        },
+        {
+            "id": "uber-amsterdam-amsterdam",
+            "name": "Uber Amsterdam",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ujBQgrRizF6w8Q6BuZ7ANQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/uber-amsterdam-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 13,
+            "categories": [
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.3348007202148,
+                "longitude": 4.870530128479
+            },
+            "transactions": [],
+            "location": {
+                "address1": "",
+                "address2": "",
+                "address3": "",
+                "city": "Amsterdam",
+                "zip_code": "",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Amsterdam, Noord-Holland",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 3174.132311040804
+        },
+        {
+            "id": "melody-taxi-amsterdam",
+            "name": "Melody Taxi",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/KUh0OBZnUyM23CQ5R0TP7g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/melody-taxi-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 52.37486,
+                "longitude": 4.85688
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Joos Banckersplantsoen 3",
+                "address2": null,
+                "address3": null,
+                "city": "Amsterdam",
+                "zip_code": "1056 LC",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Joos Banckersplantsoen 3",
+                    "1056 LC Amsterdam",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31623927119",
+            "display_phone": "+31 6 23927119",
+            "distance": 2530.2140914271617
+        },
+        {
+            "id": "taxihunter-amsterdam",
+            "name": "Taxihunter",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taxihunter-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.3702157,
+                "longitude": 4.8951679
+            },
+            "transactions": [],
+            "location": {
+                "address1": "",
+                "address2": "",
+                "address3": "",
+                "city": "Amsterdam",
+                "zip_code": "",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Amsterdam, Noord-Holland",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31642319197",
+            "display_phone": "+31 6 42319197",
+            "distance": 677.8053368913139
+        },
+        {
+            "id": "my-taxi-centrale-amsterdam-2",
+            "name": "My Taxi Centrale",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/my-taxi-centrale-amsterdam-2?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.3737106,
+                "longitude": 4.82655
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Burgemeester Rendorpstraat 5",
+                "address2": "",
+                "address3": "",
+                "city": "Amsterdam",
+                "zip_code": "1064 EL",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Burgemeester Rendorpstraat 5",
+                    "1064 EL Amsterdam",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31204750320",
+            "display_phone": "+31 20 475 0320",
+            "distance": 4436.413110531435
+        },
+        {
+            "id": "paardentaxi-amsterdam",
+            "name": "Paardentaxi",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/wC6jeQnwhP72Dtl3vrll-g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/paardentaxi-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "localservices",
+                    "title": "Local Services"
+                },
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                }
+            ],
+            "rating": 5,
+            "coordinates": {
+                "latitude": 52.4068298,
+                "longitude": 4.9126701
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Banne Buikslootlaan",
+                "address2": "",
+                "address3": "",
+                "city": "Amsterdam",
+                "zip_code": "1034 BE",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Banne Buikslootlaan",
+                    "1034 BE Amsterdam",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31621877300",
+            "display_phone": "+31 6 21877300",
+            "distance": 4833.4102009252265
+        },
+        {
+            "id": "taxi-tulip-amsterdam",
+            "name": "Taxi Tulip",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/taxi-tulip-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.39374,
+                "longitude": 4.90404
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Distelweg 76",
+                "address2": "",
+                "address3": "",
+                "city": "Amsterdam",
+                "zip_code": "1031 HH",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Distelweg 76",
+                    "1031 HH Amsterdam",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31206363000",
+            "display_phone": "+31 20 636 3000",
+            "distance": 3355.277885767614
+        },
+        {
+            "id": "vip-taxi-amsterdam",
+            "name": "VIP Taxi",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/vip-taxi-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                }
+            ],
+            "rating": 1,
+            "coordinates": {
+                "latitude": 52.3733321,
+                "longitude": 4.8896742
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Spuistraat",
+                "address2": "",
+                "address3": "",
+                "city": "Amsterdam",
+                "zip_code": "",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Spuistraat",
+                    "Amsterdam, Noord-Holland",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31297269954",
+            "display_phone": "+31 297 269 954",
+            "distance": 938.816110995174
+        },
+        {
+            "id": "limo-taxi-amsterdam-amstelveen",
+            "name": "Limo Taxi Amsterdam",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/lyY3PQ_SJkh7PvFMr48Lxg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/limo-taxi-amsterdam-amstelveen?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                },
+                {
+                    "alias": "limos",
+                    "title": "Limos"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 52.3769427,
+                "longitude": 4.8018715
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Laan van Kronenburg 2",
+                "address2": null,
+                "address3": null,
+                "city": "Amstelveen",
+                "zip_code": "1183 AS",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Laan van Kronenburg 2",
+                    "1183 AS Amstelveen",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31202009702",
+            "display_phone": "+31 20 200 9702",
+            "distance": 6150.266693393376
+        },
+        {
+            "id": "pizza-taxi-amsterdam",
+            "name": "Pizza Taxi",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/oMajV0FYCDMbiwuH2Avu5Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pizza-taxi-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 52.3531944,
+                "longitude": 4.8927605
+            },
+            "transactions": [],
+            "price": "€€",
+            "location": {
+                "address1": "Ceintuurbaan 121",
+                "address2": null,
+                "address3": null,
+                "city": "Amsterdam",
+                "zip_code": "1072 GA",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Ceintuurbaan 121",
+                    "1072 GA Amsterdam",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31206715735",
+            "display_phone": "+31 20 671 5735",
+            "distance": 1313.30525684121
+        },
+        {
+            "id": "rotterdam-airport-taxi-rotterdam-2",
+            "name": "Rotterdam Airport  Taxi",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/85XLakccge-IVR7RRmlNSQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/rotterdam-airport-taxi-rotterdam-2?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "taxis",
+                    "title": "Taxis"
+                },
+                {
+                    "alias": "airport_shuttles",
+                    "title": "Airport Shuttles"
+                }
+            ],
+            "rating": 4,
+            "coordinates": {
+                "latitude": 51.9493675,
+                "longitude": 4.4326596
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Rotterdam Airportplein 2",
+                "address2": null,
+                "address3": "",
+                "city": "Rotterdam",
+                "zip_code": "3045 AP",
+                "country": "NL",
+                "state": "ZH",
+                "display_address": [
+                    "Rotterdam Airportplein 2",
+                    "3045 AP Rotterdam",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31102620406",
+            "display_phone": "+31 10 262 0406",
+            "distance": 55732.90394605337
+        },
+        {
+            "id": "aov-connexxion-taxi-services-amsterdam",
+            "name": "AOV Connexxion Taxi Services",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/aov-connexxion-taxi-services-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "publicservicesgovt",
+                    "title": "Public Services & Government"
+                }
+            ],
+            "rating": 2.5,
+            "coordinates": {
+                "latitude": 52.41287,
+                "longitude": 4.87408
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Disketteweg 10",
+                "address2": "",
+                "address3": "",
+                "city": "Amsterdam",
+                "zip_code": "1033 NW",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Disketteweg 10",
+                    "1033 NW Amsterdam",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 5449.651729423126
+        },
+        {
+            "id": "my-taxi-centrale-amsterdam",
+            "name": "MY Taxi Centrale",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/my-taxi-centrale-amsterdam?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 1,
+            "categories": [],
+            "rating": 1,
+            "coordinates": {
+                "latitude": 52.3949799,
+                "longitude": 4.8689
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Nieuwe Hemweg 7-P",
+                "address2": null,
+                "address3": null,
+                "city": "Amsterdam",
+                "zip_code": "1013 BG",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Nieuwe Hemweg 7-P",
+                    "1013 BG Amsterdam",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31204750320",
+            "display_phone": "+31 20 475 0320",
+            "distance": 3649.167781524206
+        },
+        {
+            "id": "klm-royal-dutch-airlines-amstelveen",
+            "name": "KLM Royal Dutch Airlines",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/nU8SlVs2-wBlClusNwEVPA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/klm-royal-dutch-airlines-amstelveen?adjust_creative=Mbl3vtJwKs5nYYj0A_simw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Mbl3vtJwKs5nYYj0A_simw",
+            "review_count": 70,
+            "categories": [
+                {
+                    "alias": "airlines",
+                    "title": "Airlines"
+                }
+            ],
+            "rating": 3,
+            "coordinates": {
+                "latitude": 52.3061744,
+                "longitude": 4.8464057
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Amsterdamseweg 55",
+                "address2": "",
+                "address3": "",
+                "city": "Amstelveen",
+                "zip_code": "1182 GP",
+                "country": "NL",
+                "state": "NH",
+                "display_address": [
+                    "Amsterdamseweg 55",
+                    "1182 GP Amstelveen",
+                    "The Netherlands"
+                ]
+            },
+            "phone": "+31204747747",
+            "display_phone": "+31 20 474 7747",
+            "distance": 7213.230276509579
+        }
+    ],
+    "total": 16,
+    "region": {
+        "center": {
+            "longitude": 4.8902893066,
+            "latitude": 52.3648974718
+        }
+    }
+}

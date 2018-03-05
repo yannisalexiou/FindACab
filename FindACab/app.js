@@ -20,7 +20,8 @@ Ext.application({
     name: 'FindACab',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'Utils.Commons'
     ],
 
     models: [

@@ -6,7 +6,7 @@ Ext.define('FindACab.controller.CabController', {
       stores: ['Cabs'],
       refs: {
         //Referecens to view components
-        main: 'main'
+        main: 'mainview'
       },
       control: {
         //Dispatches events that belong to certain view compontents to custom methods
@@ -29,28 +29,28 @@ Ext.define('FindACab.controller.CabController', {
 
     //Init method is called during the application initialization
     init: function () {
-      var a = Ext.ComponentQuery.query('mainview').length;
-      var b = Ext.ComponentQuery.query('mainview');
-      var c = this.getMain();
+      var itemsWithQueryNameMainview = Ext.ComponentQuery.query('mainview').length;
+      var referenceNameWithNameMainview = Ext.ComponentQuery.query('mainview');
+      var getterOfAReferenceMain = this.getMain();
       console.log("On init app found "
-            + a
+            + itemsWithQueryNameMainview
             + " mainviews: ",
-            b);
+            referenceNameWithNameMainview);
         console.log("On init app found the reference: ",
-            c);
+            getterOfAReferenceMain);
     },
 
     //called when the Application is launched, remove if not needed
     launch: function(app) {
       //A good place to run any logic that has to run after the app UI is initialized
-      var a = Ext.ComponentQuery.query('mainview').length;
-      var b = Ext.ComponentQuery.query('mainview');
-      var c = this.getMain();
+      var itemsWithQueryNameMainview = Ext.ComponentQuery.query('mainview').length;
+      var referenceNameWithNameMainview = Ext.ComponentQuery.query('mainview');
+      var getterOfAReferenceMain = this.getMain();
       console.log("On launch app found "
-            + a
+            + itemsWithQueryNameMainview
             + " mainviews: ",
-            b);
+            referenceNameWithNameMainview);
         console.log("On launch app found the reference: ",
-            c);
+            getterOfAReferenceMain);
     }
 });

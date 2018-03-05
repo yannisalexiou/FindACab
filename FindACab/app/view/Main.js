@@ -1,6 +1,6 @@
 Ext.define('FindACab.view.Main', {
     extend: 'Ext.tab.Panel',
-    xtype: 'main',
+    xtype: 'mainview',
     requires: [
         'Ext.TitleBar',
         'Ext.Video'

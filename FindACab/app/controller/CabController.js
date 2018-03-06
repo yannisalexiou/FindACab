@@ -11,7 +11,7 @@ Ext.define('FindACab.controller.CabController', {
 
         titlebar: 'overview titlebar',
         overview: 'overview',
-        detailView: 'detailView',
+        detailView: 'detailview',
         settingsView: 'settingsview'
       },
       control: {
@@ -37,7 +37,7 @@ Ext.define('FindACab.controller.CabController', {
           select: 'prefillDetail'
         },
 
-        'detailView button[action=close]': {
+        'detailview button[action=close]': {
           close: 'onDetailClose'
         },
 

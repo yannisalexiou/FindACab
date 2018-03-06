@@ -3,7 +3,8 @@ Ext.define('FindACab.view.Main', {
     xtype: 'mainview',
     requires: [
       'FindACab.view.Overview',
-      'FindACab.view.DetailView'
+      'FindACab.view.DetailView',
+      'FindACab.view.RatingChart'
     ],
     config: {
       layout: 'hbox',

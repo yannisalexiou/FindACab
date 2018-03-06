@@ -54,10 +54,6 @@
             "x-bootstrap": true
         },
         {
-            "path" : "https://maps.googleapis.com/maps/api/js?key=AIzaSyC-fW-dZ6nuY7cfu6g_6oBCPiSEZZlmJzU&callback=initMap",
-            "remote" : "true"
-        },
-        {
             "path": "bootstrap.js",
             "x-bootstrap": true
         },

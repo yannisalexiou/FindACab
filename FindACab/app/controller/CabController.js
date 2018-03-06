@@ -3,7 +3,7 @@ Ext.define('FindACab.controller.CabController', {
 
     config: {
       models: ['Cab'],
-      stores: ['Cabs'],
+      stores: ['Cabs', 'Settings'],
       markers: [],
       refs: {
         //Referecens to view components
@@ -11,7 +11,8 @@ Ext.define('FindACab.controller.CabController', {
 
         titlebar: 'overview titlebar',
         overview: 'overview',
-        detailView: 'detailView'
+        detailView: 'detailView',
+        settingsView: 'settingsview'
       },
       control: {
         //Dispatches events that belong to certain view compontents to custom methods
@@ -38,6 +39,13 @@ Ext.define('FindACab.controller.CabController', {
 
         'detailView button[action=close]': {
           close: 'onDetailClose'
+        },
+
+        'detailview #settingsbtn': {
+          tap: 'toggleSettings'
+        },
+        'settingsview #close': {
+          tap: 'toggleSettings'
         }
 
       }
@@ -76,6 +84,8 @@ Ext.define('FindACab.controller.CabController', {
       var me = this;
       Ext.getStore('Cabs').load(function(item) {
         var count = Ext.getStore('Cabs').getCount();
+
+        //Centrer the map to the first itemp from store
         var lat = item[0].get('coordinates'); //latitude
         var lng = item[0].get('coordinates'); //longitude
         var position = new google.maps.LatLng(lat,lng);
@@ -84,6 +94,7 @@ Ext.define('FindACab.controller.CabController', {
 
         me.loadMarkers(map, map.getMap()); //7
         me.setTitleCount(count); //8
+        Ext.Viewport.unmask();
       });
     },
 
@@ -152,30 +163,37 @@ Ext.define('FindACab.controller.CabController', {
       this.getOverview().deselectAll();
     },
 
-
     //Init method is called during the application initialization
     init: function () {
       var itemsWithQueryNameMainview = Ext.ComponentQuery.query('mainview').length;
       var referenceNameWithNameMainview = Ext.ComponentQuery.query('mainview');
       var getterOfAReferenceMain = this.getMain();
-      console.log("On init app found "
-            + itemsWithQueryNameMainview
-            + " mainviews: ",
-            referenceNameWithNameMainview);
-      console.log("On init app found the reference: ",
-          getterOfAReferenceMain);
-
-          // Ext.Viewport.mask({
-          //       xtype: 'loadmask',
-          //       message: 'loading...'
-          //   });
-
-            Ext.getStore('Cabs').load();
-            Ext.getStore('Cabs').addListener('load',
-                this.onCabsStoreLoad,
-                this);
+      console.log("On init app found " + itemsWithQueryNameMainview + " mainviews: ", referenceNameWithNameMainview);
+      console.log("On init app found the reference: ", getterOfAReferenceMain);
 
       this.loadMapElements();
+
+      if (!this.overlay) {
+            this.overlay = Ext.Viewport.add({
+                xtype: 'settingsview',
+                modal: true,
+                hideOnMaskTap: true,
+                centered: true,
+                width: 320,
+                height: 380,
+                hidden: true,
+                showAnimation: {
+                    type: 'popIn',
+                    duration: 250,
+                    easing: 'ease-out'
+                },
+                hideAnimation: {
+                    type: 'popOut',
+                    duration: 250,
+                    easing: 'ease-out'
+                }
+            });
+        }
     },
 
     //called when the Application is launched, remove if not needed
@@ -184,12 +202,16 @@ Ext.define('FindACab.controller.CabController', {
       var itemsWithQueryNameMainview = Ext.ComponentQuery.query('mainview').length;
       var referenceNameWithNameMainview = Ext.ComponentQuery.query('mainview');
       var getterOfAReferenceMain = this.getMain();
-      console.log("On launch app found "
-            + itemsWithQueryNameMainview
-            + " mainviews: ",
-            referenceNameWithNameMainview);
-      console.log("On launch app found the reference: ",
-          getterOfAReferenceMain);
+      console.log("On launch app found " + itemsWithQueryNameMainview + " mainviews: ", referenceNameWithNameMainview);
+      console.log("On launch app found the reference: ", getterOfAReferenceMain);
+
+      Ext.Viewport.mask({
+        xtype: 'loadmask',
+        message: 'loading...'
+      });
+
+      //this.getApplication().getController('SettingsController').toggleSettings();
+
 
     }
 });

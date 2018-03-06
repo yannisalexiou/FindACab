@@ -34,7 +34,8 @@ Ext.application({
     ],
 
     controllers: [
-      'CabController'
+      'CabController',
+      'SettingsController'
     ],
 
     views: [

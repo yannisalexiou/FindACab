@@ -1,23 +1,14 @@
 Ext.define('FindACab.view.Overview', {
-  extend: 'Ext.List',
+  extend: 'Ext.List', //extend from a list
   xtype: 'overview',
   requires: [
-    'Ext.TitleBar',
+      'Ext.Toolbar',
   ],
   config: {
-    emptyText: 'No data',
-    grouped: true,
-    onItemDisclosure: true,
-
-    itemTpl: '<span class="distance">' +
-    '{[values.distance.toFixed(2)]}' +
-    '</span> {name:ellipsis(16, true)} ',
-
     items: [{
       xtype: 'titlebar',
-      docked: 'top',
-      title: 'Overview'
-    }, {
+      docked: 'top'
+    },{
       xtype: 'toolbar',
       layout: {
         type: 'hbox',
@@ -25,20 +16,25 @@ Ext.define('FindACab.view.Overview', {
       },
       docked: 'bottom',
       ui: 'light',
-
       items: [{
-        handler: function () {
-          this.fireEvent('filtermame');
+        handler: function(){
+          this.fireEvent('filtername');
         },
         ui: 'small',
         text: 'name'
-      }, {
-        handler: function () {
+      },{
+        handler: function(){
           this.fireEvent('filterdistance');
         },
         ui: 'small',
         text: 'distance'
       }],
-    }]
+    }],
+
+    //list specific
+    emptyText: 'No data',
+    grouped: true,
+    itemTpl: '<span class="distance">{[values.distance.toFixed(2)]}</span> {name:ellipsis(16, true)} ',
+    onItemDisclosure: true
   }
 });

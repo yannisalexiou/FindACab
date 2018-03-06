@@ -15,9 +15,10 @@ Ext.define('FindACab.view.DetailView', {
       docked: 'top',
       title: 'FindACab',
       items: [{
-        iconCls: 'settings',
-        ui: 'plain',
-        align: 'right'
+          iconCls: 'settings',
+          itemId: 'settingsbtn', //<1>
+          ui: 'plain',
+          align: 'right'
       }]
     }, {
       xtype: 'map',
@@ -51,7 +52,7 @@ Ext.define('FindACab.view.DetailView', {
         padding: 20,
         height: 50,
         handler: function () {
-          this.fireEvent('close')
+          this.fireEvent('close');
         },
         ui: 'plain'
       }],

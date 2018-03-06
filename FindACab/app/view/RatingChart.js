@@ -8,9 +8,9 @@ Ext.define('FindACab.view.RatingChart', {
 	config: {
 		series: [{
 			type: 'gauge',
-			field: 'avg_rating',
-			labelField: 'Rating',
-			value: 0,
+			field: 'rating',
+			labelField: 'rating',
+			value: 2,
 			minimum: 0,
 			maximum: 5,
 			donut: 80,

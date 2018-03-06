@@ -11,7 +11,7 @@ Ext.define('FindACab.controller.CabController', {
 
         titlebar: 'overview titlebar',
         overview: 'overview',
-        detailView: 'detailview',
+        detailView: 'detailView',
         settingsView: 'settingsview'
       },
       control: {
@@ -37,11 +37,11 @@ Ext.define('FindACab.controller.CabController', {
           select: 'prefillDetail'
         },
 
-        'detailview button[action=close]': {
+        'detailView button[action=close]': {
           close: 'onDetailClose'
         },
 
-        'detailview #settingsbtn': {
+        'detailView #settingsbtn': {
           tap: 'toggleSettings'
         },
         'settingsview #close': {
@@ -151,6 +151,8 @@ Ext.define('FindACab.controller.CabController', {
       });
       this.getDetailView().setActiveItem(1);
       this.getDetailView().getActiveItem().setData(record.getData());
+
+      Ext.ComponentQuery.query('ratingchart')[0].getSeries()[0].setValue(record.get('rating'));
     },
 
     onDetailClose: function () {
@@ -209,8 +211,6 @@ Ext.define('FindACab.controller.CabController', {
         xtype: 'loadmask',
         message: 'loading...'
       });
-
-      //this.getApplication().getController('SettingsController').toggleSettings();
 
 
     }

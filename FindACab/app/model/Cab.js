@@ -15,7 +15,7 @@ Ext.define('FindACab.model.Cab', {
             { name: 'city', type: 'string' },
             { name: 'userinput', type: 'string' },
             { name: 'country', type: 'string' },
-            { name: 'rating', type: 'float' },
+            { name: 'rating', type: 'auto' },
             { name: 'distance', type: 'float' }
 
         ]

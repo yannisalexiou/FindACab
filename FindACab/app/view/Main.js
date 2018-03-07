@@ -16,5 +16,10 @@ Ext.define('FindACab.view.Main', {
         xtype: 'detailView',
         flex: 3
       }]
+    },
+
+    initialize: function () {
+      console.log("Component Main initialized");
+      this.callParent();
     }
 });

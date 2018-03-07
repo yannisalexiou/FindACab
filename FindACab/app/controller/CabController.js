@@ -11,8 +11,7 @@ Ext.define('FindACab.controller.CabController', {
 
         titlebar: 'overview titlebar',
         overview: 'overview',
-        detailView: 'detailView',
-        settingsView: 'settingsview'
+        detailView: 'detailView'
       },
       control: {
         //Dispatches events that belong to certain view compontents to custom methods
@@ -39,13 +38,6 @@ Ext.define('FindACab.controller.CabController', {
 
         'detailView button[action=close]': {
           close: 'onDetailClose'
-        },
-
-        'detailView #settingsbtn': {
-          tap: 'toggleSettings'
-        },
-        'settingsview #close': {
-          tap: 'toggleSettings'
         }
 
       }
@@ -177,7 +169,7 @@ Ext.define('FindACab.controller.CabController', {
 
       if (!this.overlay) {
             this.overlay = Ext.Viewport.add({
-                xtype: 'settingsview',
+                xtype: 'settingsView',
                 modal: true,
                 hideOnMaskTap: true,
                 centered: true,

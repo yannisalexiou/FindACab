@@ -6,13 +6,13 @@ Ext.define('FindACab.controller.SettingsController', {
         stores: ['Settings'],
 
         refs: {
-            'settingsView': 'settingsview'
+            'settingsView': 'settingsView'
         },
         control: {
-          'detailview #settingsbtn': {
+          'detailView #settingsbtn': {
               tap: 'toggleSettings'
           },
-          'settingsview #close': {
+          'settingsView #close': {
               tap: 'toggleSettings'
           }
         }
@@ -22,7 +22,7 @@ Ext.define('FindACab.controller.SettingsController', {
 
       if (!this.overlay) {
         this.overlay = Ext.Viewport.add({
-          xtype: 'settingsview',
+          xtype: 'settingsView',
           modal: true,
           hideOnMaskTap: true,
           centered: true,

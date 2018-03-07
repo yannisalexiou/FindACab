@@ -1,6 +1,6 @@
 Ext.define('FindACab.view.SettingsView', {
   extend: 'Ext.form.Panel',
-  xtype: 'settingsview',
+  xtype: 'settingsView',
   requires: [
     'Ext.TitleBar',
     'Ext.form.FieldSet'

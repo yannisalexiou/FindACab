@@ -36,5 +36,47 @@ Ext.define('FindACab.view.Overview', {
     grouped: true,
     itemTpl: '<span class="distance">{[values.distance.toFixed(2)]}</span> {name:ellipsis(16, true)} ',
     onItemDisclosure: true
-  }
+  },
+
+  // config: {
+  //
+  // },
+  //
+  // constructor: function (config) {
+  //   console.log("View Overview constructor");
+  //
+  //   var newItems = [{
+  //     xtype: 'titlebar',
+  //     docked: 'top'
+  //   },{
+  //     xtype: 'toolbar',
+  //     layout: {
+  //       type: 'hbox',
+  //       pack: 'center'
+  //     },
+  //     docked: 'bottom',
+  //     ui: 'light',
+  //     items: [{
+  //       handler: function(){
+  //         this.fireEvent('filtername');
+  //       },
+  //       ui: 'small',
+  //       text: 'name'
+  //     },{
+  //       handler: function(){
+  //         this.fireEvent('filterdistance');
+  //       },
+  //       ui: 'small',
+  //       text: 'distance'
+  //     }],
+  //   }]
+  //
+  //   this.config['items'] = newItems;
+  //   this.callParent(arguments);
+  // },
+  //
+  // initialize: function () {
+  //   console.log("View Overview initialize");
+  //   this.callParent(arguments);
+  // }
 });

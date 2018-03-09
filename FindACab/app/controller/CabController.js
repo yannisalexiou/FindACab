@@ -166,28 +166,6 @@ Ext.define('FindACab.controller.CabController', {
       console.log("On init app found the reference: ", getterOfAReferenceMain);
 
       this.loadMapElements();
-
-      if (!this.overlay) {
-            this.overlay = Ext.Viewport.add({
-                xtype: 'settingsView',
-                modal: true,
-                hideOnMaskTap: true,
-                centered: true,
-                width: 320,
-                height: 380,
-                hidden: true,
-                showAnimation: {
-                    type: 'popIn',
-                    duration: 250,
-                    easing: 'ease-out'
-                },
-                hideAnimation: {
-                    type: 'popOut',
-                    duration: 250,
-                    easing: 'ease-out'
-                }
-            });
-        }
     },
 
     //called when the Application is launched, remove if not needed
@@ -199,11 +177,37 @@ Ext.define('FindACab.controller.CabController', {
       console.log("On launch app found " + itemsWithQueryNameMainview + " mainviews: ", referenceNameWithNameMainview);
       console.log("On launch app found the reference: ", getterOfAReferenceMain);
 
+      console.log(".::Before DEFER::.");
+      // wait 500 ms
+      //Ext.Function.defer(this.loadMapElements,8000,this);
+      // this.loadMapElements();
+
+      if (!this.overlay) {
+        this.overlay = Ext.Viewport.add({
+          xtype: 'settingsView',
+          modal: true,
+          hideOnMaskTap: true,
+          centered: true,
+          width: 320,
+          height: 380,
+          hidden: true,
+          showAnimation: {
+            type: 'popIn',
+            duration: 250,
+            easing: 'ease-out'
+          },
+          hideAnimation: {
+            type: 'popOut',
+            duration: 250,
+            easing: 'ease-out'
+          }
+        });
+      }
+
       Ext.Viewport.mask({
         xtype: 'loadmask',
         message: 'loading...'
       });
-
 
     }
 });
